@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <h2 class="navbar-brand">Insurance Premium Prediction</h2>
+    </nav>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <form action={{url_for('predict')}} method="post">
+
+                <div class="form-row">
+                    <div class="col-md-3 mb-3">
+                        <label for="Age">Age:</label>
+                        <input type="number" class="form-control" name="Age"  id="Age" placeholder="Enter Age..." required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="Sex">Sex:</label>
+                        <select class="custom-select" name="Sex" id="Sex" required>
+                            <option selected disabled value="">Choose Gender..</option>
+                            <option value=1>Male</option>
+                            <option value=0>Female</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="BMI">BMI:</label>
+                        <input type="number" class="form-control" name="BMI"  id="BMI" placeholder="Enter BMI..." required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-3 mb-3">
+                        <label for="Children">Children:</label>
+                        <input type="number" class="form-control" name="Children"  id="Children" placeholder="Enter Children..." required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="Smoker">Smoker:</label>
+                        <select class="custom-select" name="Smoker" id="Smoker" required>
+                            <option selected disabled value="">Do you smoke??</option>
+                            <option value=0>No</option>
+                            <option value=1>Yes</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="Region">Region:</label>
+                        <select class="custom-select" name="Region" id="Region" required>
+                            <option selected disabled value="">Choose Region..</option>
+                            <option value=0>Southeast</option>
+                            <option value=1>Southwest</option>
+                            <option value=2>Northwest</option>
+                            <option value=3>Northeast</option>
+                        </select>
+                    </div>
+                </div>
+
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
