@@ -48,7 +48,7 @@ Now make routes like `\` for rendering home page and `/predict` for rendering pr
 <br>
 Author: Arkadev Chakrabarti
 <br>
-For any queries related to ml/dl contact me <a href="mailto:chakrabarti.arkadev@gmail.com?subject = Feedback&body = Message">abhiprasad7042@gmail.com</a>
+For any queries related to ml/dl contact me <a href="mailto:chakrabarti.arkadev@gmail.com?subject = Feedback&body = Message">chakrabarti.arkadev@gmail.com</a>
 <br>
 
 ## Thank You
