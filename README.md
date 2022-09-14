@@ -9,7 +9,7 @@ algorithms that’s best fit for the above case. Some Famous
 
 Algorithms: - Multiple Linear Regression, Decision tree Regression and Gradient Boosting, Adaboost Regressor, RandomForestRegression and Elasticnet.
 
-Result:
+##Result:
 We have build a solution that should able to predict the amount of health insurance.
 ApplicationLink:https://insurencepr.herokuapp.com/
 
@@ -23,21 +23,21 @@ conda create -n insurance python=3.7 -y
 Step 2:- Activate env
 
 conda activate insurance
-Step 6:- Download dataset :- [insurance](https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction)
+Step 3:- Download dataset :- [insurance](https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction)
 
-Step 7:- Creat template for project
+Step 4:- Creat template for project
 
 code present in template.py
 
-Step 8:- Add all the file to github
+Step 5:- Add all the file to github
 
 git add -A
 git commit -m "first commit"
 git push -u origin main
 
-Step 9:- After finish model building now time to create webapp:-
+Step 6:- After finish model building now time to create webapp:-
 
-Step 10:- app.py on root dir for creating flask api Now make routes like \ for rendering home page and /predict for rendering predictions.
+Step 7:- app.py on root dir for creating flask api Now make routes like \ for rendering home page and /predict for rendering predictions.
 
 Author: Arkadev Chakrabarti
 
