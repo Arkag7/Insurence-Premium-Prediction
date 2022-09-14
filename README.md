@@ -14,7 +14,7 @@ We have build a solution that should able to predict the amount of health insura
 
 ###### Follow the steps after making github repository and cloning in the working folder.
 
-### STEPS ARE MENTIONED BELOW FOR MAKING THE ENTIRE PIPELINE
+### STEPS ARE MENTIONED BELOW 
 
 Step 1:- Create env
 ```bash
@@ -30,19 +30,17 @@ Step 4:- Creat template for project
 ```bash
 code present in template.py
 ```
-Step 10:- Add all the file to github
+Step 5:- Add all the file to github
 ```bash
 git add -A
 git commit -m "first commit"
 git push -u origin main
 ```
-Step 13:- After finish model building now time to create webapp:- <br>
+Step 6:- After finish model building now time to create webapp:- <br>
 ```bash
-In webapp folder we have templates of the webpage and for styling we used bootstrap and css. CSS available in static folder.
-```
 
-Step 14:- 
-```app.py``` on root dir for creating flask api
+Step 7:- 
+```app.py```  for creating flask api
 Now make routes like `\` for rendering home page and `/predict` for rendering predictions.
 
 <br>
