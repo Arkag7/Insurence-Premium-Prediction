@@ -19,6 +19,7 @@ STEPS ARE MENTIONED BELOW FOR MAKING THE ENTIRE PIPELINE
 Step 1:- Create env
 
 conda create -n insurance python=3.7 -y
+
 Step 2:- Activate env
 
 conda activate insurance
