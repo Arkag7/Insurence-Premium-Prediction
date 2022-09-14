@@ -13,9 +13,31 @@ Result:
 We have build a solution that should able to predict the amount of health insurance.
 ApplicationLink:https://insurencepr.herokuapp.com/
 
+Follow the steps after making github repository and cloning in the working folder.
+
+STEPS ARE MENTIONED BELOW FOR MAKING THE ENTIRE PIPELINE
+Step 1:- Create env
+
+conda create -n insurance python=3.7 -y
+Step 2:- Activate env
+
+conda activate insurance
+Step 6:- Download dataset :- [insurance](https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction)
+
+Step 7:- Creat template for project
+
+code present in template.py
+
+Step 8:- Add all the file to github
+
+git add -A
+git commit -m "first commit"
+git push -u origin main
+
+Step 9:- After finish model building now time to create webapp:-
+
+Step 10:- app.py on root dir for creating flask api Now make routes like \ for rendering home page and /predict for rendering predictions.
+
 Author: Arkadev Chakrabarti
 
-
-
-Deployed to Heroku https://insurencepr.herokuapp.com/
 Thank You
